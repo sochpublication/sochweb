@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publications - Soch Publication House</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 10px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+        .logo {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: contain;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 1.8em;
+        }
+        nav {
+            background-color: #34495e;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #e74c3c;
+        }
+        .books-section {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        .books-table {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 0 20px; /* Adds vertical spacing between rows */
+        }
+        .books-table tr {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+        .book-item {
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            text-align: center;
+            flex: 1;
+            max-width: calc(33.33% - 14px); /* Adjusts for gap */
+            box-sizing: border-box;
+        }
+        .book-item img {
+            width: 100%;
+            max-width: 250px;
+            height: 356px;
+            border-radius: 8px;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+        .book-item h3 {
+            margin: 0 0 10px;
+            color: #e74c3c;
+            font-size: 1.2em;
+        }
+        .book-item p {
+            margin: 0 0 10px;
+            font-style: italic;
+            font-size: 0.9em;
+        }
+        .book-item a {
+            display: inline-block;
+            padding: 5px 10px;
+            margin: 5px;
+            background-color: #e74c3c;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .book-item a:hover {
+            background-color: #c0392b;
+        }
+        .pagination {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .pagination a {
+            color: #e74c3c;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+        .pagination a:hover {
+            color: #c0392b;
+        }
+        .pagination span {
+            margin: 0 10px;
+            font-weight: bold;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 20px;
+        }
+        footer a {
+            color: #e74c3c;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.jpeg" alt="Soch Publication House Logo" class="logo">
+        <h1>Soch Publication House</h1>
+    </header>
+    <nav>
+        <a href="index.html">Publications</a>
+        <a href="ongoing.html">Join Anthologies</a>
+        <a href="aboutus.html">About Us</a>
+    </nav>
+    <section class="books-section">
+        <table class="books-table">
+            <tr>
+                <td class="book-item">
+                    <h3>Break is Important</h3>
+                    <img src="book1.jpeg" alt="Break is Important Book Cover">
+                    <p>Compiler: Sadia Mohammed</p>
+                    <p>Languages: English, Hindi</p>
+                    <a href="https://www.amazon.in/gp/product/9349845512/ref=cx_skuctr_share_ls_srb?smid=AIECEM6PV6BI3&tag=ShopReferral_90c4f6f0-aecc-487e-ac46-a26475e30768">Buy on Amazon</a>
+                </td>
+                <td class="book-item">
+                    <h3>Chronicles of the Arcane Worlds</h3>
+                    <img src="book2.jpeg" alt="Chronicles of the Arcane Worlds Book Cover">
+                    <p>Compiler: Niyaama Shree Krishnammal</p>
+                    <p>Languages: Hindi, English, Tamil</p>
+                    <a href="https://www.amazon.in/gp/product/9349845253/ref=cx_skuctr_share_ls_srb?smid=AIECEM6PV6BI3&tag=ShopReferral_ad92bbe5-88e4-4b8f-84d0-951a3bbca6ae">Buy on Amazon</a>
+                </td>
+                <td class="book-item">
+                    <h3>Oh! Beauty</h3>
+                    <img src="book3.jpeg" alt="Oh! Beauty Book Cover">
+                    <p>Compiler: Pavithra Srinivasan</p>
+                    <p>Languages: English, Hindi</p>
+                    <a href="https://www.amazon.in/gp/product/9349845873/ref=cx_skuctr_share_ls_srb?smid=AIECEM6PV6BI3&tag=ShopReferral_46a89cd0-a8f6-4b9f-ba4b-758476a9eddf">Buy on Amazon</a>
+                </td>
+            </tr>
+            <tr>
+                <td class="book-item">
+                    <h3>Swaraj Ke Deewane</h3>
+                    <img src="book4.jpeg" alt="Swaraj Ke Deewane Book Cover">
+                    <p>Compiler: Avinash Kumar Sah</p>
+                    <p>Languages: Hindi, English, Bangla</p>
+                    <a href="https://www.amazon.in/gp/product/934984561X/ref=cx_skuctr_share_ls_srb?smid=AIECEM6PV6BI3&tag=ShopReferral_0744b12a-4c94-483e-9306-ebe790b6b740">Buy on Amazon</a>
+                </td>
+                <td class="book-item">
+                    <h3>Legends Of Sports</h3>
+                    <img src="book5.jpeg" alt="Legends Of Sports Book Cover">
+                    <p>Compiler: Atul Kumar</p>
+                    <p>Languages: Hindi, English</p>
+                    <a href="https://www.amazon.in/gp/product/9349845431/ref=cx_skuctr_share_ls_srb?smid=AIECEM6PV6BI3&tag=ShopReferral_65a66209-ce73-4e04-bb93-a700d7a32fd3">Buy on Amazon</a>
+                </td>
+                <td class="book-item">
+                    <h3>The last page of my Diary</h3>
+                    <img src="book6.jpeg" alt="The last page of my Diary Book Cover">
+                    <p>Compiler: Lakshay Kansal & Debanjali Adhikary</p>
+                    <p>Languages: English, Hindi</p>
+                    <a href="https://www.amazon.in/gp/product/9349845261/ref=cx_skuctr_share_ls_srb?smid=AIECEM6PV6BI3&tag=ShopReferral_1a13d1b2-daf6-4750-9dce-59dd90f82233">Buy on Amazon</a>
+                </td>
+            </tr>
+        </table>
+    </section>
+    <footer>
+    <div class="footer-container">
+        <p class="footer-contact">Contact: <a href="mailto:sochpublicationhouse@gmail.com">sochpublicationhouse@gmail.com</a></p>
+        <p class="footer-social">Connect with us: 
+            <a href="https://www.instagram.com/soch_publication_house?igsh=MW05ejR1a3U4d2ZiMA%3D%3D&utm_source=qr">Instagram</a> | 
+            <a href="https://www.youtube.com/@SochPublicationHouse">YouTube</a> | 
+            <a href="https://www.facebook.com/share/19tY4ARAyU/?mibextid=wwXIfr">Facebook</a>
+        </p>
+    </div>
+    </footer>
+</body>
+</html>
