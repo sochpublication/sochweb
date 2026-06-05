@@ -202,4 +202,20 @@
     </div>
     </footer>
 </body>
+    <script>
+document.addEventListener("DOMContentLoaded", function() {
+    var table = document.querySelector("table");
+    if (table) {
+        var newRow = table.insertRow(-1);
+        var newCell = newRow.insertCell(0);
+        newCell.className = "book-item";
+        newCell.innerHTML = '<h3>Khwabon Ka Musafir</h3>' +
+            '<img src="THANK YOU 3000 FOLLOWERS ELEGANT INVITATION INSTAGRAM POST.png" alt="Khwabon Ka Musafir">' +
+            '<p>Solo book by Omprakash Latiyal</p>' +
+            '<p>Languages: Hindi</p>' +
+            '<a href="https://amzn.in/d/072tulIJ" target="_blank">Buy on Amazon</a>';
+    }
+});
+</script>
+
 </html>
